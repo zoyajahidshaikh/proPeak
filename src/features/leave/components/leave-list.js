@@ -47,7 +47,13 @@ class LeaveList extends Component {
     }
 
     renderActionCell(row) {
-        // Implement your action cell rendering logic here
+// This method defines how the action cells should be rendered in the DataTable.
+// Customize the content and appearance of action cells based on the provided 'row' data.
+// You can add buttons, icons, or any other UI elements to represent actions.
+// Make sure to handle the desired actions, such as deletion or approval, within this logic.
+// If needed, you can access other components or external functions to perform specific actions.
+// Ensure that the rendered JSX aligns with your application's design and functionality.
+// Modify this method according to your specific requirements for handling actions in the DataTable.
     }
 
     async onDeleteListId(leaveId) {
